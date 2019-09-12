@@ -1,0 +1,32 @@
+#color-display {
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  left: 425px;
+}
+#color-display2.box {
+  left: 350px;
+}
+#color-display3.box {
+  left: 500px;
+}
+#color-display4.box {
+  left: 650px;
+}
+.displayColorCode {
+  position: absolute;
+  top: 150px;
+}
+
+.box {
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  position: absolute;
+  left: 200px;
+}
+
+button {
+  border: none;
+  font-size: 1em;
+}
