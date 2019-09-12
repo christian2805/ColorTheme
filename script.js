@@ -226,11 +226,10 @@ function rgb2hsl2(r, g, b) {
 
   console.log("hsl(%f,%f%,%f%)", h, s, l); // just for testing
   l;
+  Math.round.h;
+  Math.round.s;
+  Math.round.l;
 
-  //   lort.h = h;
-  //   lort.l = l;
-  //   lort.s = s;
-
-  document.querySelector(".hsl1").textContent = (h, l, s);
-  console.log(h, l, s);
+  document.querySelector(".hsl1").textContent = `hsl ${h}, ${s}%, ${l}%`;
+  console.log("what?", Math.round(h), Math.round(l), Math.round(s));
 }
