@@ -233,3 +233,4 @@ function rgb2hsl2(r, g, b) {
   document.querySelector(".hsl1").textContent = `hsl ${h}, ${s}%, ${l}%`;
   console.log("what?", Math.round(h), Math.round(l), Math.round(s));
 }
+// wrong name
